@@ -1,7 +1,6 @@
 *{
-     font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin: 0;
-
 }
 nav{
     display: flex;
@@ -108,4 +107,90 @@ nav button{
 .content p{
     color: gray;
     font-size: 16px;
+}
+.pricing{
+    width:90%;
+    margin:60px auto;
+}
+
+.pricing h1{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:gray;
+    margin-bottom:40px;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+.pricing-container .card{
+    width:350px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:25px;
+}
+
+.pricing-container .card h5{
+    color:gray;
+    margin-bottom:15px;
+}
+
+.pricing-container .card h2{
+    font-size:50px;
+}
+
+.price-text{
+    color:gray;
+    margin-bottom:20px;
+}
+
+.pricing-container  .card hr{
+    margin:20px 0;
+}
+
+.pricing-container .card ul{
+    list-style:disc;
+    padding-left:20px;
+    margin-bottom:30px;
+}
+
+.pricing-container  .card li{
+    margin-bottom:12px;
+}
+
+.pricing-container .card button{
+    width:100%;
+    padding:12px;
+    border:1px solid royalblue;
+    background:white;
+    color:royalblue;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.dark{
+    background:#102030;
+    color:white;
+}
+
+.dark .price-text{
+    color:#ccc;
+}
+
+.dark h5{
+    color:#8db6ff;
+}
+
+.dark button{
+    background:royalblue;
+    color:white;
+    border:none;
 }
