@@ -55,4 +55,7 @@ nav button{
     font-size: 18px;
     cursor: pointer;
 }
-    
+    .banner-text p{
+        width:550px;
+        margin: auto;
+    }
